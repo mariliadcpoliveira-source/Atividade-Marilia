@@ -1,0 +1,10 @@
+Gere os primeiros $N$ termos da sequência de Fibonacci 
+(0, 1, 1, 2, 3, 5, 8...).
+
+-Resposta
+
+n = int(input("Quantos termos deseja ver? "))
+a, b = 0, 1
+for _ in range(n):
+  print(a, end=" ")
+  a, b = b, a + b
