@@ -1,4 +1,3 @@
-
 Crie uma função que receba um número inteiro e retorne True se ele for 
 primo e False caso contrário.
 
